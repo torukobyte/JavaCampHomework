@@ -1,5 +1,5 @@
 public class Student extends User{
-    int studentNumber;
+    private int studentNumber;
 
     public Student(int id, String firstName, String lastName, String email, String password, String phoneNumber) {
         super(id, firstName, lastName, email, password, phoneNumber);

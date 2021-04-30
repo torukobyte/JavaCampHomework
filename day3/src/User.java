@@ -1,13 +1,14 @@
 public class User {
-    int id;
-    String firstName;
-    String lastName;
-    String email;
-    String password;
+    public int id;
+    public String firstName;
+    public String lastName;
+    public String email;
+    public String password;
+    public String phoneNumber;
     // olurda kullanıcı çağırırsa null değer döner diye private yapıp sadece okunabilir hale getirdim get ile
+    // getProfilePicture değilde gider örn: burak.profilePicture der ve null değer döner public olursa..
     private String profilePicture; // varsayılan olarak tüm isimlere ait bir jpg dosyası olduğunu hayal ederek yazacağım.
-    String phoneNumber;
-    String username;
+    private String username;
 
     public User(int id, String firstName, String lastName, String email, String password, String phoneNumber) {
         this.id = id;
