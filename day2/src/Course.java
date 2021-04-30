@@ -1,5 +1,3 @@
-package day2;
-
 public class Course {
 
     public Course(int id, double price, String name, String tutor, String detail) {

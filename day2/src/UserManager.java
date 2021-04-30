@@ -1,5 +1,3 @@
-package day2;
-
 public class UserManager {
     public void createAccount(User user) {
         System.out.println("id: " + user.id + " \nname: " + user.name + " \nemail: " + user.email + "\nbilgilerine sahip kullanıcı başarıyla oluşturuldu!");

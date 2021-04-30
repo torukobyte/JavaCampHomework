@@ -1,5 +1,3 @@
-package day2;
-
 public class CourseManager {
     public void joinToCourse(Course course) {
         System.out.println(course.name + " adlı kursa başarıyla katıldınız.");
