@@ -25,9 +25,12 @@ public class Main {
         System.out.println(burak.getStudentNumber());
 
         System.out.println("\n---------------------------------\n");
-        RegisterManager registerManager = new RegisterManager();
-        registerManager.register(new InstructorManager()); //saçma bir örnek oldu ama override i kullanmak istedim pekişmesi için
-        registerManager.register(new StudentManager());
+        RegisterManager registerManager = new RegisterManager(new StudentManager()); // new StudentManager()
+        registerManager.register(engin);
+        registerManager.register(burak); //saçma bir örnek oldu ama override i kullanmak istedim pekişmesi için
+        // logger gibi olmadı maalesef, konsepti aklımda canlandırıp uygun bir örnek bulamadım..
+        // ana sınıf User olduğu için student da InstructorManager ı kullanabiliyor
+
         System.out.println("\n---------------------------------\n");
 
         UserManager userManager = new UserManager();

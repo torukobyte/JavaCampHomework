@@ -1,5 +1,6 @@
 public class UserManager {
     public void register() {
+        System.out.println("kullanıcı kayıt oldu..");
     }
 
     public void multipleRegister(User[] users){
