@@ -33,6 +33,9 @@ public class Main {
         UserManager userManager = new UserManager();
         userManager.login(engin);
         userManager.login(burak);
+        userManager.logout(burak);
+        User[] users = {burak,engin};
+        userManager.multipleRegister(users); // users.length -> 2 kullanıcı başarıyla kayıt edildi..
         System.out.println("\n---------------------------------\n");
 
         StudentManager studentManager = new StudentManager();
