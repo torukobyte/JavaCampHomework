@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EasyWSDL>
+  <Info>
+    <Version>5.11.5.0</Version>
+    <AccountType>Basic</AccountType>
+    <LibrariesFolder>easywsdl</LibrariesFolder>
+    <MainClass>PVMKPSPublicSoap</MainClass>
+  </Info>
+  <Settings>
+    <Url>https://tckimlik.nvi.gov.tr/service/kpspublic.asmx</Url>
+    <ClassPrefix/>
+    <PackageName>Task_2.MernisService</PackageName>
+    <AddDocumentation>false</AddDocumentation>
+    <EnableAdvancedFeatures>true</EnableAdvancedFeatures>
+    <EnableMTOM>false</EnableMTOM>
+    <EncodeIllegalCharacters>true</EncodeIllegalCharacters>
+    <GenerateAsyncOperations>false</GenerateAsyncOperations>
+    <ImplementSerializable>false</ImplementSerializable>
+    <ImplementParcelable>false</ImplementParcelable>
+    <AddAnyCollection>false</AddAnyCollection>
+    <DateTimeSupport>Default</DateTimeSupport>
+    <Repackage/>
+    <GenerateHtmlDocumentation>false</GenerateHtmlDocumentation>
+    <AddDataSetSupport>false</AddDataSetSupport>
+    <PlatformType>Java</PlatformType>
+    <Annotations>None</Annotations>
+    <AddLibraries>true</AddLibraries>
+    <GenerateGetSetMethods>false</GenerateGetSetMethods>
+    <DetectDictionaries>false</DetectDictionaries>
+  </Settings>
+  <Files>
+    <File>PVMDateTimeConverter.java</File>
+    <File>PVMExtendedSoapSerializationEnvelope.java</File>
+    <File>PVMHelper.java</File>
+    <File>PVMKPSPublicSoap.java</File>
+    <File>PVMKPSPublicSoap12.java</File>
+    <File>PVMMarshalGuid.java</File>
+    <File>PVMStandardDateTimeConverter.java</File>
+  </Files>
+  <Libraries>
+    <File>ExKsoap2-1.0.3.1.jar</File>
+    <File>ksoap2-android-assembly-3.6.4-jar-with-dependencies.jar</File>
+  </Libraries>
+</EasyWSDL>
