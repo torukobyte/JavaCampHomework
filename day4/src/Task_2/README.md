@@ -8,4 +8,7 @@ We designed customer managament system for coffe shop companys.
 
 # Screenshots
 ![terminal](https://user-images.githubusercontent.com/61664693/116838397-e6e43a80-abd6-11eb-8694-c1fc3c041ede.png)
+
+<br>
+
 ![exception](https://user-images.githubusercontent.com/61664693/116838399-e77cd100-abd6-11eb-90c7-5042976f9a46.png)
