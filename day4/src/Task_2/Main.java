@@ -20,7 +20,7 @@ public class Main {
         burak.firstName = "Burak";
         burak.lastName = "KALAYCI";
         burak.dateOfBirth = LocalDate.of(1996, 5, 23);
-        burak.nationalityId = "10288038336";
+        burak.nationalityId = "1111111111";
 
         Customer engin = new Customer(2, "Engin", "Demiroğ", LocalDate.of(1985, 1, 6), "010101010");
 
