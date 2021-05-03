@@ -12,7 +12,7 @@ package Task_2.MernisService;
 import java.util.Date;
 
 
-public interface PVMDateTimeConverter
+public interface TDFDateTimeConverter
 {
     java.util.Date convertDateTime(String strDate);
     java.util.Date convertTime(String strDate);

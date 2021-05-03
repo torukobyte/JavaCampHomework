@@ -15,7 +15,7 @@ import java.util.Locale;
 
 
 
-public class PVMStandardDateTimeConverter implements PVMDateTimeConverter
+public class TDFStandardDateTimeConverter implements TDFDateTimeConverter
 {
     public java.util.TimeZone TimeZone=java.util.TimeZone.getTimeZone("UTC");
 

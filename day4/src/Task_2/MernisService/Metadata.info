@@ -4,7 +4,7 @@
     <Version>5.11.5.0</Version>
     <AccountType>Basic</AccountType>
     <LibrariesFolder>easywsdl</LibrariesFolder>
-    <MainClass>PVMKPSPublicSoap</MainClass>
+    <MainClass>TDFKPSPublicSoap</MainClass>
   </Info>
   <Settings>
     <Url>https://tckimlik.nvi.gov.tr/service/kpspublic.asmx</Url>
@@ -29,13 +29,13 @@
     <DetectDictionaries>false</DetectDictionaries>
   </Settings>
   <Files>
-    <File>PVMDateTimeConverter.java</File>
-    <File>PVMExtendedSoapSerializationEnvelope.java</File>
-    <File>PVMHelper.java</File>
-    <File>PVMKPSPublicSoap.java</File>
-    <File>PVMKPSPublicSoap12.java</File>
-    <File>PVMMarshalGuid.java</File>
-    <File>PVMStandardDateTimeConverter.java</File>
+    <File>TDFDateTimeConverter.java</File>
+    <File>TDFExtendedSoapSerializationEnvelope.java</File>
+    <File>TDFHelper.java</File>
+    <File>TDFKPSPublicSoap.java</File>
+    <File>TDFKPSPublicSoap12.java</File>
+    <File>TDFMarshalGuid.java</File>
+    <File>TDFStandardDateTimeConverter.java</File>
   </Files>
   <Libraries>
     <File>ExKsoap2-1.0.3.1.jar</File>

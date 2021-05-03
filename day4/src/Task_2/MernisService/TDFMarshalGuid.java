@@ -21,7 +21,7 @@ import java.io.IOException;
 import java.util.UUID;
 
 
-public class PVMMarshalGuid implements Marshal
+public class TDFMarshalGuid implements Marshal
 {
     public java.lang.Object readInstance(XmlPullParser parser, java.lang.String namespace, java.lang.String name,PropertyInfo expected) throws IOException, XmlPullParserException
     {
