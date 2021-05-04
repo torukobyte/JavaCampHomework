@@ -1,9 +1,5 @@
 # Mernis Service Ekleme - IntelliJ IDEA
 
-## Videolu anlatım
-
-https://user-images.githubusercontent.com/61664693/117039143-18f9b780-ad11-11eb-89e4-7b66db916ecd.mp4
-
 ### File -> Settings -> Plugins dedikten sonra Marketplace e tıklıyoruz.Ardından WSDL yazıyoruz karşımıza EasyWSDL Generator çıkacak bu plugini kuruyoruz.IntelliJ yeniden başlatmak isteyecektir yeniden başlıyoruz.
 ![file](https://user-images.githubusercontent.com/61664693/117022952-57877600-ad01-11eb-8214-611500e50a00.png)
 ![settngs](https://user-images.githubusercontent.com/61664693/117022955-58200c80-ad01-11eb-9738-7f3682ac3e52.png)
@@ -23,6 +19,8 @@ https://user-images.githubusercontent.com/61664693/117039143-18f9b780-ad11-11eb-
 ### MernisService package in içine bakıyoruz ve servislerimiz gelmiş(Her yeni service oluşturmada önünde ki ilk 3 harfi rastgele atıyor plugini kodlayanların algoritması buna bir şey yapamıyoruz).IntelliJ size mernisi tamamlasın isterseniz KPS yazmanız yeterli o zaten sizin servisinizi tanıyacaktır.Ardından referans oluşturup kullanabilirsiniz.
 ![Screenshot_5](https://user-images.githubusercontent.com/61664693/117022949-56eedf80-ad01-11eb-8a6e-e3985405f609.png)
 
+## Videolu anlatım
 
+https://user-images.githubusercontent.com/61664693/117039143-18f9b780-ad11-11eb-89e4-7b66db916ecd.mp4
 
 
