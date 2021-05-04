@@ -4,5 +4,6 @@ import Task_2.Entities.Customer;
 
 public interface CustomerService {
 
-    public void save(Customer customer) throws Exception;
+    void save(Customer customer) throws Exception;
+    void delete(Customer customer) throws Exception;
 }

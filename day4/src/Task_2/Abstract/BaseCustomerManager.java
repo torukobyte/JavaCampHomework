@@ -7,4 +7,9 @@ public abstract class BaseCustomerManager implements CustomerService {
     public void save(Customer customer) throws Exception {
         System.out.println("Saved to db : "+customer.firstName);
     }
+
+    @Override
+    public void delete(Customer customer) throws Exception {
+        System.out.println("Deleted from db : "+customer.firstName);
+    }
 }

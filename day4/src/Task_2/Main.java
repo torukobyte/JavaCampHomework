@@ -24,6 +24,7 @@ public class Main {
 
         Customer engin = new Customer(2, "Engin", "Demiroğ", LocalDate.of(1985, 1, 6), "010101010");
 
+        customerManager.delete(burak);
         customerManager.save(burak);
         customerManager.save(engin); // not a valid person
         System.out.println("----------------------------");
