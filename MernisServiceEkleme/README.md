@@ -1,6 +1,6 @@
 # Mernis Service Ekleme - IntelliJ IDEA
 
-### File -> Settings -> Plugins dedikten sonra Marketplace e tıklıyoruz.Ardından WSDL yazıyoruz karşımıza EasyWSDL Generator çıkacak bu plugini kuruyoruz.IntelliJ yeniden başlatmak isteyecektir yeniden başlıyoruz.
+### File -> Settings -> Plugins dedikten sonra Marketplace e tıklıyoruz. Ardından WSDL yazıyoruz karşımıza EasyWSDL Generator çıkacak bu plugini kuruyoruz.IntelliJ yeniden başlatmak isteyecektir yeniden başlıyoruz.
 ![file](https://user-images.githubusercontent.com/61664693/117022952-57877600-ad01-11eb-8214-611500e50a00.png)
 ![settngs](https://user-images.githubusercontent.com/61664693/117022955-58200c80-ad01-11eb-9738-7f3682ac3e52.png)
 ![Screenshot_1](https://user-images.githubusercontent.com/61664693/117022957-58200c80-ad01-11eb-8ec2-14c45198adff.png)
