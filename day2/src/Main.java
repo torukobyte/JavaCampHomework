@@ -6,8 +6,7 @@ public class Main {
                 0,
                 "C# + Angular",
                 "Engin Demirog",
-                "2 ay sürecek ücretsiz ve profesyonel bir programla, sıfırdan yazılım geliştirme öğreniyoruz."
-        );
+                "2 ay sürecek ücretsiz ve profesyonel bir programla, sıfırdan yazılım geliştirme öğreniyoruz.");
 
         Course course2 = new Course(
                 2,

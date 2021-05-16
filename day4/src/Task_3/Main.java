@@ -26,7 +26,10 @@ public class Main {
                 1,
                 "Burak",
                 "KALAYCI",
-                new Date(1996, 5, 23),
+                new Date(
+                        1996,
+                        5,
+                        23),
                 "torukobyte@gmail.com",
                 "asd123",
                 "12345678901"
@@ -36,7 +39,10 @@ public class Main {
                 2,
                 "Goku",
                 "Kakarotto",
-                new Date(1984, 5, 23),
+                new Date(
+                        1984,
+                        5,
+                        23),
                 "goku@dragonball.com",
                 "goku123",
                 "098765432110",
@@ -64,14 +70,26 @@ public class Main {
 
         System.out.println("\n-----------------------\n");
 
-        baseSellerManager.sell(gtaV, gamer);
-        baseSellerManager.relaseGame(battleFieldVI, seller);
+        baseSellerManager.sell(
+                gtaV,
+                gamer);
+        baseSellerManager.relaseGame(
+                battleFieldVI,
+                seller);
 
         System.out.println("\n-----------------------\n");
 
-        campaingManager.create(battleFieldVI,seller);
-        campaingManager.update(battleFieldVI,seller);
-        campaingManager.delete(battleFieldVI,seller);
+        campaingManager.create(
+                battleFieldVI,
+                seller);
+
+        campaingManager.update(
+                battleFieldVI,
+                seller);
+
+        campaingManager.delete(
+                battleFieldVI,
+                seller);
 
 
     }

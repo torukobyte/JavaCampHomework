@@ -9,15 +9,37 @@ public class Main {
 
     public static void main(String[] args) {
 
-        UserService userService = new UserManager(new HiberbanteUserDao(), new GoogleAuthManagerAdapter(new GoogleAuthManager()));
+        UserService userService = new UserManager(
+                new HiberbanteUserDao(),
+                new GoogleAuthManagerAdapter(new GoogleAuthManager()));
 
-        User burak = new User(1, "Burak", "KALAYCI", "torukobyte@gmail.com", "230596");
+        User burak = new User(
+                1,
+                "Burak",
+                "KALAYCI",
+                "torukobyte@gmail.com",
+                "230596");
 
-        User goku = new User(2, "Goku", "Son", "torukobyte@gmail.com", "160484");
+        User goku = new User(
+                2,
+                "Goku",
+                "Son",
+                "torukobyte@gmail.com",
+                "160484");
 
-        User eminem = new User(3, "Marshall", "Mathers", "eminem@eminem.com", "171072");
+        User eminem = new User(
+                3,
+                "Marshall",
+                "Mathers",
+                "eminem@eminem.com",
+                "171072");
 
-        User semih = new User(4, "Semih", "KALAYCI", "semih@gmail.com", "240493");
+        User semih = new User(
+                4,
+                "Semih",
+                "KALAYCI",
+                "semih@gmail.com",
+                "240493");
 
         userService.register(burak);
         userService.register(goku);

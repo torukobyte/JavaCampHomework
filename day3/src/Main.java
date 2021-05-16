@@ -8,7 +8,7 @@ public class Main {
                 "torukobyte@gmail.com",
                 "sha256",
                 "001010100100"
-                );
+        );
 
         Instructor engin = new Instructor(
                 2,
@@ -37,7 +37,7 @@ public class Main {
         userManager.login(engin);
         userManager.login(burak);
         userManager.logout(burak);
-        User[] users = {burak,engin};
+        User[] users = {burak, engin};
         userManager.multipleRegister(users); // users.length -> 2 kullanıcı başarıyla kayıt edildi..
         System.out.println("\n---------------------------------\n");
 

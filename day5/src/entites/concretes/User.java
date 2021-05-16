@@ -11,7 +11,7 @@ public class User implements Entity {
     private String password;
     private boolean flag = false;
 
-    public User () {
+    public User() {
 
     }
 
